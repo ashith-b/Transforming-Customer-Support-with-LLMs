@@ -15,3 +15,11 @@ jobs:
 
       - name: Run simple Python
         run: python -c "print('Hello from Python!')"
+
+      - name: Calculate something
+        run: |
+          echo "2 + 2 = 4"
+          echo "Python: $((5 * 3))"
+          
+      - name: This will fail
+        run: exit 1 
