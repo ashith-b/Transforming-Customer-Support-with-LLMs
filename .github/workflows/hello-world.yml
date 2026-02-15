@@ -3,19 +3,18 @@ name: My First Workflow
 on: 
   push:
     branches:
-      - master 
+      - master
 
 jobs:
-  say-hello
+  say-hello:
     runs-on: ubuntu-latest
-
+    
     steps:
-      - name: say hello
-        run: echo "Hello! my workflow is running!"
+      - name: Say hello
+        run: echo "Hello! My workflow is running!"
       
       - name: Show the date
         run: date
       
       - name: List files
         run: ls -la
-    
