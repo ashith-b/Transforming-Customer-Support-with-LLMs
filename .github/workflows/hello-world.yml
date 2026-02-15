@@ -1,4 +1,4 @@
-name: My First Workflow
+name: About me
 
 on: 
   push:
@@ -10,16 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Check Python version
-        run: python --version
+      - name: My name
+        run: echo "My name is Ashith"
 
-      - name: Run simple Python
-        run: python -c "print('Hello from Python!')"
+      - name: Today is
+        run: date +%A
 
-      - name: Calculate something
-        run: |
-          echo "2 + 2 = 4"
-          echo "Python: $((5 * 3))"
-          
-      - name: This will fail
-        run: exit 1 
+      - name: Fun fact
+        run: echo "I'm learning CI/CD!"
+ 
