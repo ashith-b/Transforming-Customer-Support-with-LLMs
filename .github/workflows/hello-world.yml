@@ -10,11 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Say hello
-        run: echo "Hello! My workflow is running!"
-      
-      - name: Show the date
-        run: date
-      
-      - name: List files
-        run: ls -la
+      - name: Check Python version
+        run: python --version
+
+      - name: Run simple Python
+        run: python -c "print('Hello from Python!')"
