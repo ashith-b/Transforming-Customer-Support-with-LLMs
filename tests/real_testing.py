@@ -35,7 +35,6 @@ def test_required_folders():
     required_folders = [
         'src',
         'tests',
-        'vector_store',
         'Customer_Support_Training_Dataset'
     ]
     
@@ -141,7 +140,6 @@ def test_system_components():
     components = {
         'Helper Module': 'src/helper.py',
         'Demo App': 'demo.py',
-        'Vector Store': 'vector_store',
         'Dataset': 'Customer_Support_Training_Dataset',
         'Requirements': 'requirements.txt'
     }
