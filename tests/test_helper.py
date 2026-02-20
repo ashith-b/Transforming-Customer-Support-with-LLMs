@@ -3,6 +3,7 @@ Simple tests for the customer support system
 """
 import os
 
+
 def test_requirements_exists():
     """Test that requirements.txt exists"""
     assert os.path.exists('requirements.txt'), "requirements.txt should exist"

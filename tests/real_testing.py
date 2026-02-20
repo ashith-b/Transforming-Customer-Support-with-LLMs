@@ -1,9 +1,10 @@
 """
 Advanced tests for customer support system
 """
-import pytest
-import sys
 import os
+import sys
+
+import pytest
 
 # Add src to path so we can import helper
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))

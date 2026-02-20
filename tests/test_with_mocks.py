@@ -3,6 +3,7 @@ Tests that mock external API calls
 """
 from unittest.mock import Mock, patch
 
+
 def test_llm_call_mocked():
     """Test LLM call with mocked response"""
     # This doesn't actually call OpenAI!

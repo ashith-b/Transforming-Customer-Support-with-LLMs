@@ -1,8 +1,9 @@
-import streamlit as st
 import faiss
 import pandas as pd
+import streamlit as st
 
-from src.helper import semantic_similarity, call_llm
+from src.helper import call_llm, semantic_similarity
+
 
 #function to display the response and handle feedback
 def display_response(query, df, index):
