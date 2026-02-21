@@ -3,9 +3,27 @@
 # Introduction
 This project focuses on solving a common challenge in customer support: managing a large number of tickets efficiently. Many businesses struggle with slow response times, incorrect prioritization, and inconsistent service quality. Traditional support systems often can't keep up as the workload grows, leading to higher costs and unhappy customers. By using Large Language Models (LLMs), this project aims to transform how support tickets are handled. LLMs can read and understand tickets, sort them by urgency and topic, and even provide accurate and helpful responses quickly, improving the overall customer experience.
 
+![Tests](https://github.com/ashith-b/Transforming-Customer-Support-with-LLMs/workflows/Python%20Tests%20&%20Quality%20Checks/badge.svg)
+![Code Quality](https://github.com/ashith-b/Transforming-Customer-Support-with-LLMs/workflows/Code%20Quality/badge.svg)
+![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+**Production-ready LLM-powered customer support system with automated CI/CD pipeline, comprehensive testing, and deployment automation.**
+
+---
+
 # Solution Architecture 
 
 ![Alt Text](images/Customer_Support_architecture.png)
+
+## 🚀 Features
+
+- **Automated Testing** with pytest and CI/CD
+- **Code Quality Checks** (black, flake8, isort)
+- **RAG Pipeline** with FAISS vector store
+- **LLM Integration** with OpenAI
+- **Streamlit Demo** for interactive testing
+- **Production-Ready** with comprehensive test coverage
 
 # Folder Structure
 1. The folder `src/helper.py` contains all the modular functions needed in the project. 
